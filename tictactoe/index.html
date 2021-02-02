@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="gamestyle.css">
+    <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+</head>
+
+<body onload="setup()">
+    <div class="container">
+        <h1>Tic Tac Toe</h1>
+        <table id='board'>
+            <tr data-uom_id="1" id="id-742" >
+                <td id="1"></td>
+                <td id="2" class="vert"></td>
+                <td id="3"></td>
+            </tr>
+            <tr>
+                <td id="4" class="hori"></td>
+                <td id="5" class="vert hori"></td>
+                <td id="6" class="hori"></td>
+            </tr>
+            <tr>
+                <td id="7"></td>
+                <td id="8" class="vert"></td>
+                <td id="9" ></td>
+            </tr>
+        </table>
+        <button type="button" class="btn btn-danger" id="reset">Start Over</button>
+        <h1 id="win"></h1>
+    </div>
+
+    <script src="gamecode.js"></script>
+    <!-- <script src="bot.js"></script> -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
